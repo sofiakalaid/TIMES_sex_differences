@@ -42,10 +42,6 @@ reference_proteins <- read.csv(
   file.path(source_dir, "reference_proteins.csv")
 )
 
-protein_metadata <- read.csv(
-  file.path(source_dir, "protein_metadata.csv")
-)
-
 sampling_contaminants <- read.csv(
   file.path(source_dir, "sampling_contaminants.csv")
 )
